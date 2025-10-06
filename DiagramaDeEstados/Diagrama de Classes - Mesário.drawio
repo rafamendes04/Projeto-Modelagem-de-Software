@@ -1,0 +1,129 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 OPR/121.0.0.0" version="28.2.5">
+  <diagram name="Página-1" id="A0ZGpTjfgDnUJoRCpPRm">
+    <mxGraphModel dx="1000" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FxoY6nBO1pDIbRc8TCbj-39" target="FxoY6nBO1pDIbRc8TCbj-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-39" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="99" y="170" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-40" value="Estado Inicial" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-41" value="Diagrama de Estados - Objeto Mesário&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=3;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="140" y="70" width="550" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-42" value="Aguardando eleitor fornecer suas informações" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="165" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-43" value="Identificação Eleitor" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="53.5" y="260" width="121.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-44" value="IdentificarEleitor()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;fontSize=10;" vertex="1" parent="FxoY6nBO1pDIbRc8TCbj-43">
+          <mxGeometry y="30" width="121.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-45" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-46" value="Erro com alguma&amp;nbsp;&lt;div&gt;informação do&amp;nbsp;&lt;/div&gt;&lt;div&gt;eleitor&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="FxoY6nBO1pDIbRc8TCbj-45">
+          <mxGeometry x="-0.4" y="10" relative="1" as="geometry">
+            <mxPoint x="260" y="330" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-47" value="Todas as informações&amp;nbsp;&lt;div&gt;estão certas&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="FxoY6nBO1pDIbRc8TCbj-45">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="120" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FxoY6nBO1pDIbRc8TCbj-49" target="FxoY6nBO1pDIbRc8TCbj-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-49" value="Mesário identifica eleitor" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-50" value="Registra ocorrência" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-51" value="Autorizando Eleitor" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=50;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="58.5" y="500" width="121.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-52" value="AutorizarEleitor()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;fontSize=10;" vertex="1" parent="FxoY6nBO1pDIbRc8TCbj-51">
+          <mxGeometry y="30" width="121.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-53" value="Registra ocorrência" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="550" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-54" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="550" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-55" value="Eleitor&amp;nbsp;&lt;div&gt;Não Autorizado&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=center;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="FxoY6nBO1pDIbRc8TCbj-54">
+          <mxGeometry x="0.4048" y="10" relative="1" as="geometry">
+            <mxPoint x="260" y="570" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-56" value="Eleitor&amp;nbsp;&lt;div&gt;Autorizado&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=center;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="FxoY6nBO1pDIbRc8TCbj-54">
+          <mxGeometry x="-0.9994" y="40" relative="1" as="geometry">
+            <mxPoint x="120" y="650" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FxoY6nBO1pDIbRc8TCbj-58" target="FxoY6nBO1pDIbRc8TCbj-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-58" value="Liberando Urna" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=50;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="59.25" y="650" width="121.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-59" value="LiberarUrna()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;fontSize=10;" vertex="1" parent="FxoY6nBO1pDIbRc8TCbj-58">
+          <mxGeometry y="30" width="121.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-60" value="Urna liberada" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="655" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-61" value="Votando" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=50;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="430" y="656" width="121.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-62" value="RealizarVoto()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;fontSize=10;" vertex="1" parent="FxoY6nBO1pDIbRc8TCbj-61">
+          <mxGeometry y="30" width="121.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-63" value="Aguarda suporte técnico" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="590" y="510" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-64" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="450.75" y="616" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-65" value="Erro no sistema" style="edgeStyle=orthogonalEdgeStyle;html=1;align=center;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FxoY6nBO1pDIbRc8TCbj-64" target="FxoY6nBO1pDIbRc8TCbj-63">
+          <mxGeometry x="0.4048" y="10" relative="1" as="geometry">
+            <mxPoint x="631.5" y="726" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-66" value="Todos os votos&lt;br&gt;&amp;nbsp;completos" style="edgeStyle=orthogonalEdgeStyle;html=1;align=center;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FxoY6nBO1pDIbRc8TCbj-64">
+          <mxGeometry x="0.2986" y="20" relative="1" as="geometry">
+            <mxPoint x="490.75" y="490" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.394;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FxoY6nBO1pDIbRc8TCbj-60" target="FxoY6nBO1pDIbRc8TCbj-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FxoY6nBO1pDIbRc8TCbj-69" target="FxoY6nBO1pDIbRc8TCbj-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-69" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="475.75" y="390" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-70" value="Estado Final" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445.75" y="360" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FxoY6nBO1pDIbRc8TCbj-75" value="Votação finalizada" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440.75" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
